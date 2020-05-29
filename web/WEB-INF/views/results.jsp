@@ -8,9 +8,9 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>resoul</title>
+    <title>result</title>
 </head>
 <body>
-Kết Quả: ${resoul}
+Kết Quả: ${result}
 </body>
 </html>

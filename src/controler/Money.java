@@ -17,9 +17,9 @@ public class Money {
 
     @PostMapping()
     public ModelAndView showResoul(@ModelAttribute Moneys moneys){
-        ModelAndView modelAndView = new ModelAndView("resoul");
-        float resoul = moneys.getInputM() * moneys.getRate();
-        modelAndView.addObject(resoul);
+        ModelAndView modelAndView = new ModelAndView("results");
+        float result = moneys.getInputM() * moneys.getRate();
+        modelAndView.addObject("result",result);
         return modelAndView;
     }
 }
